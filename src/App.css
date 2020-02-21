@@ -13,5 +13,31 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 border: 1px solid black;
+display: block;
 
+}
+
+.notDisplayed {
+  display: none;
+}
+
+.popup {
+  position: absolute;
+ top: 50%;
+ left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  color:white;
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ 
 }
