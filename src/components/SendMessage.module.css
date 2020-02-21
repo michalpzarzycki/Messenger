@@ -1,0 +1,21 @@
+.mainDiv {
+    width: 100%;
+    height: 5%;
+    
+}
+
+.send {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.button {
+    width: 30%;
+
+}
+
+.input {
+    width: calc(70% - 2px);
+}
